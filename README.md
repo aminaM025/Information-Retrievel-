@@ -1,16 +1,21 @@
 # RECIPE INFORMATION RETRIEVAL
-./gh-md-toc ~/hp/Document.vim/README.md
 
-# Table of Contents
-=================
+## Table of Contents
 
-  * [ABSTRACT](## ABSTRACT)
-  * [ABOUT RECIPES INFORMATION RETRIEVAL](## ABOUT RECIPES INFORMATION RETRIEVAL)
-  * [GETTING STARTED](## GETTING STARTED)
-        * [OR using Pathogen:](#or-using-pathogen)
-        * [OR using Vundle:](#or-using-vundle)
-  * [License](#license)
 
+  * [ABSTRACT](https://github.com/69saba/README/edit/main/README.md#abstract)
+  * [ABOUT RECIPES INFORMATION RETRIEVAL](https://github.com/69saba/README/edit/main/README.md#about-recipes-information-retrieval)
+  * [GETTING STARTED](https://github.com/69saba/README/edit/main/README.md#about-recipes-information-retrieval)
+  * [1- INSTALLING VISUAL WEB RIPPER](https://github.com/69saba/README/edit/main/README.md#1-installing-visual-web-ripper)
+  * [a- Data Extraction Using Visual Web Ripper and Recipes Script](https://github.com/69saba/README/edit/main/README.md#a-data-extraction-using-visual-web-ripper-and-recipes-script)
+   * [b- Recipe Schema and Naming Conventions](https://github.com/69saba/README/edit/main/README.md#b-recipe-schema-and-naming-conventions)
+   * [RECIPE MODELS](https://github.com/69saba/README/edit/main/README.md#recipe-models)
+   *  [EXTRACTION CHALLENGES](https://github.com/69saba/README/edit/main/README.md#extraction-challenges)
+   *  [SOLUTIONS TO EXTRACTION CHALLENGES](https://github.com/69saba/README/edit/main/README.md#solutions-to-extraction-challenges)
+   *  [2- Steps of Data Transformation](https://github.com/69saba/README/edit/main/README.md#2-steps-of-data-transformation) 
+   *    [3- Steps for Data Consolidation](https://github.com/69saba/README/edit/main/README.md#3-steps-for-data-consolidation) 
+   *    [4- Data Quality](https://github.com/69saba/README/edit/main/README.md#4-data-quality) 
+   
 ## ABSTRACT
 The use of the Internet has fully-fledged intensely over the past few years. Information resources are available all over, both in internal networks and on the Internet. This progress represents an implausible means of information. The increasing amount of information requires information retrieval (IR) systems for users to access information efficiently. The main goal of Information Retrieval is to develop systems that would let users access all information resources available in the network. For this purpose we use (ETL) tools to extract data from multiple, assorted data sources, transform data, and finally load data into the database and data mining. Data quality is so important for accurate, complete, and efficient data to be provided to the user.
 ## ABOUT RECIPES INFORMATION RETRIEVAL
@@ -85,8 +90,6 @@ Let’s discuss solutions to the challenges we have been facing:
 *	If images can’t be picked on during extraction, we either select “link” from the list or select src in the “attributes” or do the content transformation.
 *	To overcome the challenge of ingredients and instructions subheadings being in a single div we select list type “text”, add line breaks, and content transform it.
 *	If we want to use ripper as we do in the browser, we select the option “navigate in the browser” option.
-
-## LINKS TO OUR EXTRACTED WEBSITES
 
 ## 2-	Steps of Data Transformation
 1)	Once the data has been successfully extracted, and exported, we convert the data into a SQL database file using SQLite Studio. The steps are as follows:
