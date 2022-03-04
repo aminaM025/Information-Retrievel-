@@ -1,4 +1,4 @@
-# Information Reterivel 
+# RECIPE INFORMATION RETRIEVAL
 
 ## ABSTRACT
 The use of the Internet has fully-fledged intensely over the past few years. Information resources are available all over, both in internal networks and on the Internet. This progress represents an implausible means of information. The increasing amount of information requires information retrieval (IR) systems for users to access information efficiently. The main goal of Information Retrieval is to develop systems that would let users access all information resources available in the network. For this purpose we use (ETL) tools to extract data from multiple, assorted data sources, transform data, and finally load data into the database and data mining. Data quality is so important for accurate, complete, and efficient data to be provided to the user.
@@ -124,16 +124,20 @@ Consistency: The data should have the data format as expected and can be cross r
 
 We apply queries on these 3 column for data quality. Some important queries that are:
 
-Replace value in a column: 
+Replace value in a column:
+
 UPDATE Table  SET Col1 = REPLACE(Col1,"Value","")
 
-Replace value in one column to another column: 
+Replace value in one column to another column:
+
 UPDATE Table SET Col2=Col1 WHERE Col1 LIKE "%Value%"
 
-Substring: 
+Substring:
+
 UPDATE  Table SET Col2 = substring(Col1 ,position('Value' in Col1), length)
 
-Substring + Concatenate: 
+Substring + Concatenate:
+
 UPDATE Table SET Col2= CONCAT( Col2, substring(Col1,position('Value' IN Col1), length) ),Col1 = "" WHERE Col1 LIKE "%Value%"
 
 
