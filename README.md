@@ -1,16 +1,12 @@
 # RECIPE INFORMATION RETRIEVAL
-$ curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o gh-md-toc
-$ chmod a+x gh-md-toc
-
 ./gh-md-toc ~/hp/Document.vim/README.md
 
-
-Table of Contents
+# Table of Contents
 =================
 
-  * [Dockerfile.vim](#dockerfilevim)
-  * [Screenshot](#screenshot)
-  * [Installation](#installation)
+  * [ABSTRACT](## ABSTRACT)
+  * [ABOUT RECIPES INFORMATION RETRIEVAL](## ABOUT RECIPES INFORMATION RETRIEVAL)
+  * [GETTING STARTED](## GETTING STARTED)
         * [OR using Pathogen:](#or-using-pathogen)
         * [OR using Vundle:](#or-using-vundle)
   * [License](#license)
