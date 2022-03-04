@@ -1,4 +1,19 @@
 # RECIPE INFORMATION RETRIEVAL
+$ curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o gh-md-toc
+$ chmod a+x gh-md-toc
+
+./gh-md-toc ~/hp/Document.vim/README.md
+
+
+Table of Contents
+=================
+
+  * [Dockerfile.vim](#dockerfilevim)
+  * [Screenshot](#screenshot)
+  * [Installation](#installation)
+        * [OR using Pathogen:](#or-using-pathogen)
+        * [OR using Vundle:](#or-using-vundle)
+  * [License](#license)
 
 ## ABSTRACT
 The use of the Internet has fully-fledged intensely over the past few years. Information resources are available all over, both in internal networks and on the Internet. This progress represents an implausible means of information. The increasing amount of information requires information retrieval (IR) systems for users to access information efficiently. The main goal of Information Retrieval is to develop systems that would let users access all information resources available in the network. For this purpose we use (ETL) tools to extract data from multiple, assorted data sources, transform data, and finally load data into the database and data mining. Data quality is so important for accurate, complete, and efficient data to be provided to the user.
