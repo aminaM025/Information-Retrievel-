@@ -10,5 +10,7 @@ To evolve various recipes over the internet we need some way to collect all the 
 Visual Web Ripper is a powerful web page scraper used to easily extract website data, such as product catalogs, classifieds, financial web sites or any other web site that contains information you may Excel, MySQL db file, SQL Lite db file.
 *	Data Extraction Using Visual Web Ripper and Recipes Script
 Recipes Script generates out .rip file. In the script, we define the recipe model if present for the website. For script generation and execution of it according to requirements, we follow a specified schema that assists us in every step of data extraction and how we structure it during extraction for late use.First, we give it a template Page Area and save it,next we give it a Link that would help us continue to the next page and name them as “recipeCategoryList” and “recipeCategory” respectively. 
+![image](https://user-images.githubusercontent.com/96038471/156801914-810e6114-98a8-4473-8c59-4e480db3592b.png)
+For the next step, we take in a list of recipes in the template of Page Area and select all our recipes and will name it as “recipeList”. 
 
  
