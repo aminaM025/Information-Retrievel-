@@ -23,6 +23,12 @@ After saving the same area as “recipes” we make a link of those selected ite
 
 This list will help us open each recipe and is named as “recipe”. Once we have provided all the present content of the recipe constituents and gave them names according to the provided schema, we save the script and the file as a Visual Web Ripper Project (.rip). 
 
+![image](https://user-images.githubusercontent.com/96038471/156802650-b932d834-ff9c-49ef-9f42-7fd6bc2cb15a.png)
+
+Next comes the extraction. We will extract the website by running our project. It will take some time to get done. The time for extraction varies depending upon the size of the website.
+
+
+
 
 
 
