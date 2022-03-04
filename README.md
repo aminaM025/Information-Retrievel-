@@ -111,6 +111,8 @@ After the recipe data of different websites has been extracted and transformed a
 14)	We consolidate all the values (idid, nutrition name) of nutrition table of website’s database into instructions table of the finalized database (Group10.Nutrition) using its “idid” as unique identifier.
 15)	Once all the tables are filled, a website’s consolidation is completed. 
 
+![image](https://user-images.githubusercontent.com/96038471/156811232-9069d2f5-6f23-4384-b2cb-88231298ca4e.png)
+
 ## 4-	Data Quality
 The quality of the data is an important attribute that could drive the value of the data and hence, impact aspects of the outcome and popularize the website. So, we work on Recipe website's Database for regulatory compliance, customer satisfaction, or accuracy of decision making. We work on 4 main criteria used in 3 columns like recipeCategory, recipe Course and recipeCuisine in recipe table to measure the data quality.
 Accuracy: For whatever data described, it needs to be accurate. Like spell mistake. 
@@ -118,7 +120,7 @@ Relevancy: The data should meet the requirements for the intended use. e.g; In r
 Completeness: The data should not have missing values or miss data records. 
 Consistency: The data should have the data format as expected and can be cross reference-able with the same results.
 
-
+![image](https://user-images.githubusercontent.com/96038471/156811352-c9e335e3-0a66-40b8-8df2-4b2d3ae7db16.png)
 
 We apply queries on these 3 column for data quality. Some important queries that are:
 
