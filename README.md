@@ -8,7 +8,7 @@ Information retrieval is dependent on a user's queries. To make the document mor
 To evolve various recipes over the internet we need some way to collect all the recipe data. The technique we imply to gather all the recipe relevant data is data extraction and the tool we use for this purpose is Visual Web Ripper.
 ## 1-	INSTALLING VISUAL WEB RIPPER
 Visual Web Ripper is a powerful web page scraper used to easily extract website data, such as product catalogs, classifieds, financial web sites or any other web site that contains information you may Excel, MySQL db file, SQL Lite db file.
-*	Data Extraction Using Visual Web Ripper and Recipes Script
+### a-	Data Extraction Using Visual Web Ripper and Recipes Script
 Recipes Script generates out .rip file. In the script, we define the recipe model if present for the website. For script generation and execution of it according to requirements, we follow a specified schema that assists us in every step of data extraction and how we structure it during extraction for late use.First, we give it a template Page Area and save it,next we give it a Link that would help us continue to the next page and name them as “recipeCategoryList” and “recipeCategory” respectively. 
 
 ![image](https://user-images.githubusercontent.com/96038471/156801914-810e6114-98a8-4473-8c59-4e480db3592b.png)
@@ -40,7 +40,7 @@ Extracting the website successfully isn’t the end of our work. After the extra
 We will use the extracted database file in SQLite studio to export a .sql file of our extracted data.  After some syntax changes which are five to be precise, to this .sql file, we upload it to our PHP server. 
 After the file has been successfully uploaded, we move towards the next phase which will be Data Consolidation.
 
-## b-	Recipe Schema and Naming Conventions
+### b-	Recipe Schema and Naming Conventions
 Throughout our journey of exploring recipes, we have come across various constituents of recipes, each of them enhancing their outlook and essence. The elements a recipe comprises, bestow a sense of soul to it. The core recipe constituents we have gathered so far and also mentioned in the provided schema are mentioned as follows:
 
 ## RECIPE MODELS
