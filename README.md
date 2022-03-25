@@ -23,7 +23,7 @@ Information retrieval is dependent on a user's queries. To make the document mor
 ## GETTING STARTED
 To evolve various recipes over the internet we need some way to collect all the recipe data. The technique we imply to gather all the recipe relevant data is data extraction and the tool we use for this purpose is Visual Web Ripper.
 ## 1-	INSTALLING VISUAL WEB RIPPER
-Visual Web Ripper is a powerful web page scraper used to easily extract website data, such as product catalogs, classifieds, financial web sites or any other web site that contains information you may Excel, MySQL db file, SQL Lite db file.
+Visual Web Ripper is a powerful web page scraper used to easily extract website data, such as product catalogs, classifieds, financial web sites or any other web site that contains information you may Excel, MySQL db file, SQL Lite db file.[To download visual web ripper click here](https://download.cnet.com/Visual-Web-Ripper/3000-2381_4-10754835.html)
 ### a-	Data Extraction Using Visual Web Ripper and Recipes Script
 Recipes Script generates out .rip file. In the script, we define the recipe model if present for the website. For script generation and execution of it according to requirements, we follow a specified schema that assists us in every step of data extraction and how we structure it during extraction for late use.First, we give it a template Page Area and save it,next we give it a Link that would help us continue to the next page and name them as “recipeCategoryList” and “recipeCategory” respectively. 
 
@@ -92,7 +92,7 @@ Let’s discuss solutions to the challenges we have been facing:
 *	If we want to use ripper as we do in the browser, we select the option “navigate in the browser” option.
 
 ## 2-	Steps of Data Transformation
-1)	Once the data has been successfully extracted, and exported, we convert the data into a SQL database file using SQLite Studio. The steps are as follows:
+1)	Once the data has been successfully extracted, and exported, we convert the data into a SQL database file using SQLite Studio.[to download SQL lite click here]:(https://sqlitestudio.pl/) The steps are as follows:
 2)	Select the file named “internal_websitename”, which is database file from the output folder of the website’s Visual Web Ripper Project.
 3)	Open SQLite Studio.
 4)	Load the internal file into SQLite Studio using the add database option.
